@@ -20,7 +20,8 @@ server:
   port: 8202
 spring:
   profiles: test
-  application: microservice-config-client
+  application: 
+    name: microservice-config-client
 eureka:
   client:
     server-url:
